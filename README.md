@@ -1,16 +1,31 @@
-## Hi there 👋
+# Halo, saya Marcellyno 👋
 
-<!--
-**xenonnnn222/xenonnnn222** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Aspiring AI Engineer · Machine Learning Enthusiast · Backend Developer
 
-Here are some ideas to get you started:
+Saya adalah pengembang yang tertarik mengeksplorasi **AI agents**, **machine learning**, dan **backend engineering**. Saya senang mempelajari bagaimana sistem cerdas dapat dirancang, diintegrasikan, dan dijalankan secara andal untuk menyelesaikan masalah nyata.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## Tentang saya
+
+- 🤖 Mengeksplorasi AI agents dan sistem berbasis LLM.
+- 🧠 Memperdalam machine learning dan penerapannya.
+- ⚙️ Mempelajari pengembangan backend yang andal dan skalabel.
+- 🌱 Membangun portofolio melalui proyek dan eksperimen nyata.
+
+## Pilihan proyek
+
+| Proyek | Deskripsi | Teknologi |
+| --- | --- | --- |
+| Proyek pertama | Akan hadir di sini. | — |
+| Eksperimen berikutnya | Akan hadir di sini. | — |
+
+## Area yang saya minati
+
+`AI Agents` · `Large Language Models` · `Machine Learning` · `Backend Development` · `APIs` · `System Design`
+
+---
+
+<p align="center">
+  Terima kasih sudah mampir. Mari berkolaborasi dan membuat sesuatu yang hebat! ✨
+</p>
