@@ -12,28 +12,24 @@
 
 ## 🤖 Tentang saya
 
-```python
-class Marcellyno:
-    role = "Informatics Undergraduate"
-    location = "Indonesia"
-    interests = ["AI Agents", "Machine Learning", "Backend Engineering"]
-    mindset = "Learn, build, iterate."
-```
+<p align="center">
+  <b>Mahasiswa Informatika yang mengeksplorasi AI agents, machine learning, dan backend engineering.</b><br />
+  <sub>Saya percaya sistem yang baik lahir dari rasa ingin tahu, iterasi kecil, dan perhatian pada masalah nyata.</sub>
+</p>
 
-Saya adalah mahasiswa S1 Informatika yang tertarik pada persimpangan antara **AI agents**, **machine learning**, dan **backend engineering**. Saya mengeksplorasi cara sistem cerdas dapat dirancang, diintegrasikan, dan dijalankan secara andal untuk menyelesaikan masalah nyata—terutama bagi bisnis lokal dan pengguna sehari-hari.
+Saya sedang memperdalam bagaimana AI agent dapat menggunakan tools, mengambil keputusan dengan alur yang jelas, dan bekerja berdampingan dengan manusia. Di sisi lain, saya juga tertarik membangun fondasi backend yang andal agar ide-ide tersebut dapat menjadi aplikasi yang bermanfaat.
 
 ## 🎓 Current mission
 
-Saya sedang mengembangkan skripsi bersama seorang partner: sebuah sistem otomasi customer service untuk UMKM kuliner rumahan.
+Saat ini saya sedang mendalami **Google Agent Development Kit (ADK)** untuk merancang dan mengevaluasi sistem AI agent yang lebih terstruktur, adaptif, dan dapat dikendalikan manusia.
 
-> **Mendesain AI agent berbasis ReAct dengan Human-in-the-Loop (HITL)** untuk membantu percakapan pelanggan tetap cepat, terstruktur, dan berada dalam kendali pemilik bisnis.
+> Mengeksplorasi desain agentic workflow, tool-use, serta pola **Human-in-the-Loop (HITL)** untuk membangun sistem AI yang andal.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Agent%20Orchestration-LangGraph-1f2937?style=flat-square&logo=langchain&logoColor=8b5cf6" alt="LangGraph" />
+  <img src="https://img.shields.io/badge/Agent%20Framework-Google%20ADK-1f2937?style=flat-square&logo=google&logoColor=7dd3fc" alt="Google Agent Development Kit" />
   <img src="https://img.shields.io/badge/API-FastAPI-1f2937?style=flat-square&logo=fastapi&logoColor=5eead4" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Database-PostgreSQL%20%2F%20Supabase-1f2937?style=flat-square&logo=postgresql&logoColor=93c5fd" alt="PostgreSQL and Supabase" />
-  <img src="https://img.shields.io/badge/Interface-PWA-1f2937?style=flat-square&logo=pwa&logoColor=fbbf24" alt="Progressive Web App" />
-  <img src="https://img.shields.io/badge/Channel-WhatsApp-1f2937?style=flat-square&logo=whatsapp&logoColor=4ade80" alt="WhatsApp" />
+  <img src="https://img.shields.io/badge/Pattern-Human--in--the--Loop-1f2937?style=flat-square&logo=semanticweb&logoColor=fbbf24" alt="Human-in-the-Loop" />
 </p>
 
 ## ✦ Area minat
@@ -65,16 +61,15 @@ Saya sedang mengembangkan skripsi bersama seorang partner: sebuah sistem otomasi
 
 | Proyek | Arah eksplorasi |
 | --- | --- |
-| 🤖 **AI Customer Service** | AI agent berbasis ReAct + HITL untuk otomasi customer service UMKM. |
+| 🤖 **Agentic Systems Research** | Eksplorasi AI agent berbasis ReAct, tool-use, dan Human-in-the-Loop. |
 | 📈 **Trading Algorithm Research** | Eksperimen mean-reversion scalping dan evaluasi model ML untuk analisis pasar. |
 | 🎮 **Indie Game & AI Tooling** | Ide dan prototipe game minimalis serta tooling AI untuk pengembangan game. |
 
 ## 📊 GitHub activity
 
-<!-- Ganti `USERNAME_GITHUB` dengan username GitHub Anda agar statistik aktif. -->
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=USERNAME_GITHUB&show_icons=true&hide_title=true&hide_border=true&bg_color=0d1117&title_color=7dd3fc&text_color=c9d1d9&icon_color=a78bfa" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME_GITHUB&layout=compact&hide_border=true&bg_color=0d1117&title_color=7dd3fc&text_color=c9d1d9" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=xenonnnn222&show_icons=true&hide_title=true&hide_border=true&bg_color=0d1117&title_color=7dd3fc&text_color=c9d1d9&icon_color=a78bfa" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xenonnnn222&layout=compact&hide_border=true&bg_color=0d1117&title_color=7dd3fc&text_color=c9d1d9" alt="Top languages" />
 </p>
 
 <br />
