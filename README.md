@@ -1,14 +1,24 @@
 ![Marcellyno · Developer Cartridge](./pixel-banner.svg)
 
-`PLAYER 01 / MARCELLYNO` &nbsp; `SAVE FILE / INFORMATIKA`
+![Player 01 · Marcellyno · Informatika](./pixel-ui/hud.png)
 
 > Di Unity, saya bisa bikin kota yang enak dilihat tapi masih terasa kosong. Di WhatsApp, saya bisa bikin agent yang jawabannya meyakinkan tapi belum tentu mencatat pesanan yang benar. Saya suka bagian setelah prototipe pertama jadi: mencari tahu **apa yang masih gagal**, lalu memperbaikinya.
 
-## Select a world
+<a name="select-a-world"></a>
 
-**[01 · AI Lab](#01-ai-lab)** &nbsp; **[02 · Game Studio](#02-game-studio)** &nbsp; **[03 · Systems Deck](#03-systems-deck)** &nbsp; **[04 · Repo Vault](#04-repo-vault)**
+## ![Select a world](./pixel-ui/start.png)
+<p align="center">
+  <a href="#01-ai-lab"><img src="./pixel-ui/menu-01.png" alt="01 · AI LAB" width="47%"></a>
+  <a href="#02-game-studio"><img src="./pixel-ui/menu-02.png" alt="02 · GAME STUDIO" width="47%"></a>
+</p>
+<p align="center">
+  <a href="#03-systems-deck"><img src="./pixel-ui/menu-03.png" alt="03 · SYSTEMS DECK" width="47%"></a>
+  <a href="#04-repo-vault"><img src="./pixel-ui/menu-04.png" alt="04 · REPO VAULT" width="47%"></a>
+</p>
 
-## 01 AI Lab
+<a name="01-ai-lab"></a>
+
+## ![01 · AI LAB](./pixel-ui/world-01.png)
 
 ### Kalau pelanggan bilang “eh, ganti jadi tiga”?
 
@@ -28,7 +38,9 @@ Ringkasan lama tidak lagi cocok. Agent perlu memperbaruinya dan meminta persetuj
 
 </details>
 
-## 02 Game Studio
+<a name="02-game-studio"></a>
+
+## ![02 · GAME STUDIO](./pixel-ui/world-02.png)
 
 ### TOU / Kota yang masih terasa kosong
 
@@ -55,7 +67,9 @@ Di LaMonth, saya ingin pemain mengikuti cerita tanpa selalu diberi daftar quest.
 
 </details>
 
-## 03 Systems Deck
+<a name="03-systems-deck"></a>
+
+## ![03 · SYSTEMS DECK](./pixel-ui/world-03.png)
 
 ### Lima proses. Satu kursi.
 
@@ -79,10 +93,12 @@ Saya membuat job Jenkins terjadwal yang membaca data gempa BMKG, mencatat hasiln
 
 </details>
 
-## 04 Repo Vault
+<a name="04-repo-vault"></a>
+
+## ![04 · REPO VAULT](./pixel-ui/world-04.png)
 
 `A1` [Environment-GameDev](https://github.com/xenonnnn222/Environment-GameDev)  
 `A2` [gamedev-mid-sam](https://github.com/xenonnnn222/gamedev-mid-sam)  
 `B1` [PasarKu](https://github.com/xenonnnn222/PasarKu)
 
-[▲ Kembali ke menu](#select-a-world)
+[![Kembali ke menu Select a World](./pixel-ui/end.png)](#select-a-world)
