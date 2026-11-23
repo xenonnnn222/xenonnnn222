@@ -1,4 +1,4 @@
-![Marcellyno — retro pixel portfolio dalam tiga dunia: AI Lab, Game Studio, dan Systems Deck](./assets/pixel-banner.svg)
+![Marcellyno — retro pixel portfolio dalam tiga dunia: AI Lab, Game Studio, dan Systems Deck](./pixel-banner.svg)
 
 # Marcellyno
 
