@@ -1,66 +1,88 @@
-![Marcellyno — retro pixel portfolio dalam tiga dunia: AI Lab, Game Studio, dan Systems Deck](./pixel-banner.svg)
+![Marcellyno · Developer Cartridge](./pixel-banner.svg)
 
-# Marcellyno
+`PLAYER 01 / MARCELLYNO` &nbsp; `SAVE FILE / INFORMATIKA`
 
-Mahasiswa Informatika. Saya bikin AI agent untuk alur kerja nyata, mengembangkan game indie di Unity, dan bereksperimen dengan sistem di Linux.
+> Di Unity, saya bisa bikin kota yang enak dilihat tapi masih terasa kosong. Di WhatsApp, saya bisa bikin agent yang jawabannya meyakinkan tapi belum tentu mencatat pesanan yang benar. Saya suka bagian setelah prototipe pertama jadi: mencari tahu **apa yang masih gagal**, lalu memperbaikinya.
 
 ## Select a world
 
-**[01 · AI LAB](#01-ai-lab)** · **[02 · GAME STUDIO](#02-game-studio)** · **[03 · SYSTEMS DECK](#03-systems-deck)** · **[04 · REPO VAULT](#04-repo-vault)**
-
-Pilih area, lalu klik judul proyek untuk membuka catatan teknisnya.
+**[01 · AI Lab](#01-ai-lab)** &nbsp; **[02 · Game Studio](#02-game-studio)** &nbsp; **[03 · Systems Deck](#03-systems-deck)** &nbsp; **[04 · Repo Vault](#04-repo-vault)**
 
 ## 01 AI Lab
 
+### Kalau pelanggan bilang “eh, ganti jadi tiga”?
+
+Saya membangun prototipe agent pemesanan WhatsApp dengan **Google ADK** untuk skripsi. Contoh berikut menunjukkan keputusan desain yang penting: kalau detail pesanan berubah, persetujuan atas ringkasan lama tidak ikut berlaku.
+
 <details>
-<summary><strong>▸ WhatsApp Ordering Agent</strong> · Prototipe skripsi</summary>
+<summary><b>A ▸ Pelanggan setuju dengan ringkasan</b></summary>
 
-Saya membangun prototipe dengan **Google ADK** untuk membantu UMKM kuliner menangani pemesanan lewat WhatsApp.
+Agent bisa melanjutkan alur dengan rincian yang disetujui. Dalam penelitian saya, yang dicek adalah **tindakan yang dipilih agent dan hasil pencatatannya**, bukan sekadar apakah balasannya terdengar natural.
 
-- **Yang dibangun:** agent membaca permintaan pelanggan dan menggunakan tools dalam alur pemesanan.
-- **Fokus penelitian:** apakah agent mengambil tindakan yang tepat dan mencatat pesanan sesuai skenario uji.
-- **Metode:** Design Science Research (DSR).
+</details>
+
+<details>
+<summary><b>B ▸ Pelanggan mengubah jumlah</b></summary>
+
+Ringkasan lama tidak lagi cocok. Agent perlu memperbaruinya dan meminta persetujuan atas rincian yang baru. Kalau isi chat terlihat benar tapi yang tercatat masih jumlah lama, skenario itu tetap gagal.
 
 </details>
 
 ## 02 Game Studio
 
+### TOU / Kota yang masih terasa kosong
+
+**Save point:** Di prototipe Unity, saya sudah mengiterasi pencahayaan, material, dan lingkungan. Tampilan kotanya mulai saya suka, tapi lensa berikutnya adalah pengalaman berjalan di dalamnya: apa yang menarik perhatian, ke mana pemain ingin belok, dan pintu mana yang pantas bisa dibuka?
+
 <details>
-<summary><strong>▸ TOU</strong> · Pengembangan aktif</summary>
+<summary><b>▸ Jalan keliling kota</b> · Buka catatan level design</summary>
 
-*Fantasy life-simulation RPG* third-person di **Unity**. Saya mengerjakan dunia yang bisa dijelajahi sambil membangun identitas visualnya.
+Saya membedah kota di *Blue Protocol*, *Monster Hunter*, dan *Final Fantasy*: bagaimana jalan mengarahkan pemain, di mana NPC masuk akal untuk ditemui, dan bagaimana props memberi petunjuk tentang fungsi suatu tempat. Itu referensi untuk iterasi berikutnya, bukan fitur yang sudah selesai di TOU.
 
-- **Yang sudah diiterasi:** pencahayaan, material, dan tampilan lingkungan.
-- **Sedang dikerjakan:** desain karakter dan NPC, terutama siluet dan bentuk 3D.
+</details>
+
+<details>
+<summary><b>▸ Masuk bengkel karakter</b> · Buka catatan sculpting</summary>
+
+NPC sudah mulai dibuat, tapi hasil awalnya belum sesuai arah visual. Fokus saya sekarang adalah membenahi **siluet dan proporsi** dulu. Kalau bentuknya belum terbaca dari kamera third-person, menambah detail permukaan tidak akan menyelesaikan masalahnya.
+
+</details>
+
+<details>
+<summary><b>▸ Ganti cartridge: LaMonth</b> · Eksperimen naratif</summary>
+
+Di LaMonth, saya ingin pemain mengikuti cerita tanpa selalu diberi daftar quest. Tantangannya: bagaimana dialog dan kondisi tempat bisa membuat orang penasaran ke mana harus pergi, tanpa bikin mereka nyasar karena tidak ada petunjuk?
 
 </details>
 
 ## 03 Systems Deck
 
-<details>
-<summary><strong>▸ Reservasi Kursi</strong> · Proyek kelompok, diuji</summary>
+### Lima proses. Satu kursi.
 
-Sistem reservasi kursi berbasis terminal dalam **C** di **Debian**. Proses berbagi status kursi melalui *shared memory*; semaphore mengatur akses supaya kursi yang sama tidak bisa dipesan dua kali.
+<details open>
+<summary><b>▸ Buka hasil uji Reservasi Kursi</b> · Proyek kelompok</summary>
 
-- **Uji konkurensi:** lima proses berebut satu kursi; tepat satu berhasil. Skenario ini lulus **100/100** putaran.
+```text
+SKENARIO : 5 proses memesan kursi yang sama
+HASIL    : 1 berhasil, 4 ditolak
+UJI      : 100/100 putaran lulus
+```
+
+Di proyek kelompok ini, kami memakai **C di Debian**. Status kursi disimpan di *shared memory*, dan semaphore menjaga supaya dua proses tidak membaca kursi yang sama sebagai “masih kosong” lalu sama-sama berhasil memesan.
 
 </details>
 
 <details>
-<summary><strong>▸ BMKG Earthquake Monitor</strong> · Otomasi Jenkins</summary>
+<summary><b>▸ Buka terminal BMKG Earthquake Monitor</b> · Jenkins</summary>
 
-Job **Jenkins** memeriksa data gempa BMKG secara terjadwal, mencatat hasilnya, dan mengirim notifikasi ke **Telegram** dan **WhatsApp**.
+Saya membuat job Jenkins terjadwal yang membaca data gempa BMKG, mencatat hasilnya, lalu mengirim notifikasi lewat **Telegram** dan **WhatsApp**. Satu kali jalan sukses di terminal belum cukup buat demo ini: saya juga perlu melihat job berjalan dari timer Jenkins.
 
 </details>
 
 ## 04 Repo Vault
 
-| Slot | Repositori publik |
-| :--- | :--- |
-| `A1` | [Environment-GameDev](https://github.com/xenonnnn222/Environment-GameDev) |
-| `A2` | [gamedev-mid-sam](https://github.com/xenonnnn222/gamedev-mid-sam) |
-| `B1` | [PasarKu](https://github.com/xenonnnn222/PasarKu) |
-
-**Toolbelt** &nbsp; `Google ADK` · `Python` · `Unity` · `C` · `Linux` · `Jenkins`
+`A1` [Environment-GameDev](https://github.com/xenonnnn222/Environment-GameDev)  
+`A2` [gamedev-mid-sam](https://github.com/xenonnnn222/gamedev-mid-sam)  
+`B1` [PasarKu](https://github.com/xenonnnn222/PasarKu)
 
 [▲ Kembali ke menu](#select-a-world)
