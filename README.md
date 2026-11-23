@@ -71,20 +71,9 @@ Di LaMonth, saya ingin pemain mengikuti cerita tanpa selalu diberi daftar quest.
 
 ## ![03 · SYSTEMS DECK](./pixel-ui/world-03.png)
 
-### Lima proses. Satu kursi.
+### Fish Tea
 
-<details open>
-<summary><b>▸ Buka hasil uji Reservasi Kursi</b> · Proyek kelompok</summary>
-
-```text
-SKENARIO : 5 proses memesan kursi yang sama
-HASIL    : 1 berhasil, 4 ditolak
-UJI      : 100/100 putaran lulus
-```
-
-Di proyek kelompok ini, kami memakai **C di Debian**. Status kursi disimpan di *shared memory*, dan semaphore menjaga supaya dua proses tidak membaca kursi yang sama sebagai “masih kosong” lalu sama-sama berhasil memesan.
-
-</details>
+Salah satu proyek game saya di **Roblox**.
 
 <details>
 <summary><b>▸ Buka terminal BMKG Earthquake Monitor</b> · Jenkins</summary>
